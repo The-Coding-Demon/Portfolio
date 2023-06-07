@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./portfoliostyles.css">
+  <title>Steve Portfolio</title>
+</head>
+
+<body>
+  <button id='btnScrollToTop' class='hidden'>
+    <i class="material-icons">arrow_upward</i>
+  </button>
+  <header>
+    <div>
+      <img src='./assets/mainlogo/logo.png' alt='Logo' class='logotop'>
+      <h1>S Cubed Media</h1>
+    </div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#About" class="nav-link">About</a></li>
+        <li><a href="#Projects" class="nav-link">Projects</a></li>
+        <li><a href="#Skills" class="nav-link">Skills</a></li>
+        <li><a href="#Experience" class="nav-link">Experience</a></li>
+        <li><a href="#Contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="About">
+      <img src="./assets/profilepic/me.jpg" alt="photo of me" id='profile'>
+      <div id="aboutmesection">
+        <h2>About me</h2>
+        <p>I'm a media production graduate from the University of Lincoln,
+          I've gained a decades worth of experience working across the board as a versatile videographer within multiple
+          commercial environments covering a range of product lines. I've always endeavoured to make creative content
+          that is
+          eye-catching, adds value and delivers upon client expectations. As a individual that thrives upon expanding my
+          horizons
+          to become more of a well-rounded media professional, I've decided
+          to delve into another passion of mine the wonderful world of programming.</p>
+
+        <p>Currently I'm undertaking a 16 week course covering all aspects of frontend development.
+          Predominantly covering the core elements of HTML, CSS, Javascript and React. But in my spare time I'm
+          venturing further into code with the likes of Python, C# and SQL.</p>
+      </div>
+    </section>
+    <section id="Projects">
+      <br>
+      <h2>Projects</h2>
+      <!-- JS here -->
+    </section>
+    <section id="Skills">
+      <br>
+      <div class="skillsimages">
+        <img class="logoskill" src="./assets/logos/csslogo.png" alt="css logo">
+        <img class="logoskill" src="./assets/logos/html5logo.png" alt="html5 logo">
+        <img class="logoskill" src="./assets/logos/javascriptlogo.png" alt="javascript logo">
+        <img class="logoskill" src="./assets/logos/reactlogo.png" alt="react logo">
+        <img class="logoskill" src="./assets/logos/pythonlogo.png" alt="python logo"><br>
+        <img class="logoskill" src="./assets/logos/aelogo.png" alt="after effects logo">
+        <img class="logoskill" src="./assets/logos/premierelogo.png" alt="premiere logo">
+        <img class="logoskill" src="./assets/logos/resolve logo.png" alt="da vinci resolve logo">
+        <img class="logoskill" src="./assets/logos/lightroomclogo.png" alt="lightroom logo">
+        <img class="logoskill" src="./assets/logos/photoshoplogo.png" alt="photoshop logo">
+      </div>
+      <br>
+    </section>
+    <section id="Experience">
+      <h2 id='exptitle'>Experience</h2>
+      <br>
+      <p> Before I stepped into the world of programming I was predominantly a videographer
+        working as a freelancer aswell as many corporate settings. One of my earliest jobs was working for Pendragon PLC
+        a nationwide car dealership. During my time there I covered all their marketable content which included working
+        on video,
+        animation, graphic design and photography.</p>
+      <p> Eventhough being a videographer was my main working trade. Due to this being my first experience, straight out
+        of university. This gave me some real insight into what I love about the creative industry the most, the
+        diversity. Which is why in my own time, I always delve into new topics that could broaden those horizons and
+        make
+        me more of a well rounded media professional.</p>
+      <p>Outside of work, I dabble in a range of activities. Im quite the athlete, well atleast I think so. Basically in
+        my terms this means I run around like a mad man in a variety of sports until my legs don't want to go anymore.
+        I'm impartial to a good gaming session, eventhough I'm terrible. Evidence of which can be seen on
+        Youtube, unfortunately. Showing my ridicolously bad dance moves at a gig or two and quenching my thrist for
+        adrelaline by travelling to wherever life takes me. Whilst doing a whole host of mad and wonderful things you
+        can get up to across the globe.</p>
+    </section>
+    <section id='showreel'>
+      <iframe width="1370" height="840" src="https://www.youtube-nocookie.com/embed/uFCTHovSa_8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+    <section id="Contact">
+      <h2>Contact</h2>
+      <form>
+        <fieldset>
+          <legend>Get In Touch Below</legend>
+          <div class='positionForm'>
+            <input type="text" id="fname" name="fname" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="hello@gmail.com" required>
+            <textarea id="message" name="message" cols="100" rows="8" placeholder="Your Message" required></textarea>
+            <a href="mailto:ssmithmedia2015@gmail.com" type="submit">Submit</a>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer id='Footer'>
+    <a href='https://www.linkedin.com/in/ssmithmedia/' target='_blank'><img
+        src="./assets/socialicons/linkedin-round-icon.png" alt="link image to my Linked In"></a>
+    <a href='https://github.com/The-Coding-Demon' target='_blank'><img src="./assets/socialicons/github-icon.png"
+        alt="link image to my GitHub"></a>
+    <a href='https://www.youtube.com/channel/UC9ghzCFsMg5RG53YlDP49UA' target='_blank'><img
+        src="./assets/socialicons/youtube-round-icon.png" alt="link image to Youtube channel"></a>
+    <a href='https://www.youtube.com/watch?v=weeCzEYVPJc&ab_channel=SCubedMedia' target='_blank'><img
+        src="./assets/socialicons/showreel-icon.png" alt="link image to my Showreel" class='showreelIcon'></a>
+    <p>©Steve Smith 2023</p>
+  </footer>
+  <script src="./portfolio.js" defer></script>
+</body>
+
+</html>
